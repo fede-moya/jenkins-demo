@@ -2,7 +2,7 @@
 ssh moya@165.227.214.185 <<EOF
  cd ~/jenkins-demo
  git pull
- npm install — production
+ npm install --production
  pm2 restart all
  exit
 EOF
