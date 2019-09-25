@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh federico@159.65.188.122 <<EOF
+ssh moya@165.227.214.185 <<EOF
  cd ~/node-app
  git pull
  npm install — production
