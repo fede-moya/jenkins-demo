@@ -12,9 +12,8 @@ pipeline {
             }
         }
         stage('Deploy') {
-            steps {
+            when (env.JOB_NAME.endsWith('cd')
                 sh './script/deploy'
-            }
         }
     }
 }
