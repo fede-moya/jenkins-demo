@@ -1,2 +1,4 @@
 #!/bin/sh
+echo "PRINTING DIRECTORIES"
+echo ls
 ./node_modules/.bin/mocha ./test/test.js
